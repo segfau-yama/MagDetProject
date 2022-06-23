@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MagDet</title>
+</head>
+<body>
+    <h1>施錠確認ページ</h1>
+    {% for item in object_list %}
+    <div>
+        <h2>部屋{{ item.room }}</h2>
+        <p>施錠{{ item.lock }}</p>
+    </div>
+    {% endfor %}
+</body>
+</html>
