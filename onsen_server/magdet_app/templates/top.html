@@ -9,7 +9,11 @@
     {% for item in object_list %}
     <div>
         <h2>部屋{{ item.room }}</h2>
-        <p>施錠{{ item.lock }}</p>
+        {% if item.lock %}
+        <p>使用中</p>
+        {% else %}
+        <p>空室</p>
+        {% endif %}
     </div>
     {% endfor %}
 </body>

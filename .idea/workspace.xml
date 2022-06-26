@@ -20,23 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f095b258-52f0-480d-b597-98c3c2cbed69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/accounts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/accounts/templates/accounts/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/consts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/static/book/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/templates/book/book_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/templates/book/book_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/templates/book/book_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/templates/book/book_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/templates/book/book_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/templates/book/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/templates/book/review_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/book/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../django-tubokotu/bookpjt/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django-tubokotu/bookproject/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django-tubokotu/bookproject/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django-tubokotu/bookproject/bookproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django-tubokotu/bookproject/bookproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/magdet_app/templates/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/magdet_app/templates/top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/magdet_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/magdet_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../django-tubokotu" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2AtDk2T54aT0pG05R5hZbOMsHSL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -217,9 +204,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1655820221193" />
-    <state x="468" y="165" key="SettingsEditor" timestamp="1655982673140">
+    <state x="832" y="418" key="Github.ShareDialog" timestamp="1655998784735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="468" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1655982673140" />
+    <state x="832" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655998784735" />
+    <state x="738" y="225" key="Github.UntrackedFilesDialog" timestamp="1655998791088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655998791088" />
+    <state x="468" y="165" key="SettingsEditor" timestamp="1655998724733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="468" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1655998724733" />
   </component>
 </project>
