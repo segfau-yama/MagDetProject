@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MagDet</title>
+    <link href="{% static 'abe.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-wrapper">
+        {% for item in object_list %}
+        <div class="item">
+            <p>● 部屋{{ item.room }}</p>
+            {% if item.lock %}
+                <p>使用中</p>
+            {% else %}
+                <p>空室</p>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="contents-wrapper">
+        <h1>施錠確認のホームページ</h1>
+    </div>
+</body>
+</html>

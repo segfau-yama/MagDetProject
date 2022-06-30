@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    display: flex;
+}
+h1 {
+    text-align:  center;
+}
+.nav-wrapper {
+    padding: 50px 100px 100% 20px;
+    flex-direction: column;
+    background-color: #F0F0FF;
+    border-right: thick double #c0c0c0;
+}
+.contents-wrapper {
+    padding-right: auto;
+    background-size: 300px;
+    background-padding: 100px;
+    background-image: url(abehiro.jpg);
+    padding-top: 50px;
+    flex-grow: 2;
+}
+.item {
+    margin-top: 10px;
+}
+.dot {
+    font-size: 15px;
+}

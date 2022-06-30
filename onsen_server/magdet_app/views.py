@@ -8,7 +8,12 @@ import json
 
 
 class lock_confirm(ListView):
-    template_name = 'top.html'
+    template_name = 'index.html'
+    model = availability
+
+
+class abe_hiroshi(ListView):
+    template_name = 'abe_hiroshi.html'
     model = availability
 
 
