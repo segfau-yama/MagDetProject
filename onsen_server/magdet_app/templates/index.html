@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>MagDet</title>
+    <link href="{% static 'main.css' %}" rel="stylesheet">
 </head>
 <body>
     <h1>施錠確認ページ</h1>
@@ -10,11 +12,18 @@
     <div>
         <h2>部屋{{ item.room }}</h2>
         {% if item.lock %}
-        <p>使用中</p>
+        <p id="busy">使用中</p>
         {% else %}
-        <p>空室</p>
+        <p id="available">空室</p>
         {% endif %}
     </div>
     {% endfor %}
+    {{ test }}
+    <input type="button" value="更新" onclick="p_reload()">
 </body>
 </html>
+<script>
+    function p_reload(){
+        location.reload();
+    };
+</script>
