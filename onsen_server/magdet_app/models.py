@@ -5,6 +5,9 @@ from model_utils import FieldTracker
 class availability(models.Model):
     room = models.PositiveSmallIntegerField()
     lock = models.BooleanField()
+    name = models.CharField(max_length = 100, null=True)
+    note = models.CharField(max_length = 100, null=True)
+    pic = models.ImageField(upload_to='up_pic', null=True)
 
     tracker = FieldTracker()
 

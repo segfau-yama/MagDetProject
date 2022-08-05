@@ -14,9 +14,8 @@ class lock_confirm(ListView):
     model = availability
 
     def post(self, request):
-        datas = json.loads(request.body)
+        datas = json.loads4(request.body)
         ava = availability.objects.get(pk=int(datas['room']))
-        bool(datas['lock'])
         ava.lock = bool(datas['lock'])
         ava.save()
 
