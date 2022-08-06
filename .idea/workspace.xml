@@ -26,11 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f095b258-52f0-480d-b597-98c3c2cbed69" name="Default Changelist" comment="v0.0.3(α版)&#10;色追加">
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/sanitize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onsen_server/magdet_app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/magdet_app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/static/main.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +66,6 @@
     <favorite-branches>
       <branch-storage>
         <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="pepsi-zero" />
-              </list>
-            </value>
-          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -88,7 +78,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pepsi" />
+        <entry key="$PROJECT_DIR$" value="coca-cola" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -269,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658395979140</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v0.0.3(α版)&#10;色追加">
+      <created>1659771855957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659771855957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -331,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="468" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1655998724733" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1659771103374">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1659771983619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659771103374" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659771983619" />
     <state x="261" y="236" key="git4idea.branch.GitSmartOperationDialog" timestamp="1659771141954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
