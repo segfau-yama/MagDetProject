@@ -19,16 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f095b258-52f0-480d-b597-98c3c2cbed69" name="Default Changelist" comment="v0.0.2(α版)&#10;ABHRS追加">
+    <list default="true" id="f095b258-52f0-480d-b597-98c3c2cbed69" name="Default Changelist" comment="v0.0.3(新版)&#10;画像バグ修正">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/magdet_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/magdet_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/media/up_pic/akari.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/media/akari.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/media/up_pic/fukashi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/media/fukashi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/media/up_pic/kage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/media/kage.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/media/up_pic/yoh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/media/yoh.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/onsen_server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/onsen_server/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/onsen_server/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/onsen_server/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/magdet_app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/magdet_app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/static/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\suiki\ドキュメント\programing\onsen_server\onsen_server\static" />
       <recent name="D:\suiki\ドキュメント\programing\onsen_server\onsen_server\media" />
       <recent name="D:\suiki\ドキュメント\networkprograming\onsen_server\onsen_server\static" />
       <recent name="D:\suiki\ドキュメント\networkprograming\onsen_server\onsen_server\magdet_app\templates" />
@@ -215,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656590476887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v0.0.3(新版)&#10;画像バグ修正">
+      <created>1659775722393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659775722393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -237,7 +239,14 @@
     <MESSAGE value="v0.0.1(α版)&#10;webページ変更" />
     <MESSAGE value="v0.0.2(α版)&#10;ABHRS追加" />
     <MESSAGE value="データベースの画像表示対応" />
-    <option name="LAST_COMMIT_MESSAGE" value="データベースの画像表示対応" />
+    <MESSAGE value="v0.0.3(新版)&#10;画像バグ修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.0.3(新版)&#10;画像バグ修正" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="66" y="256" key="Vcs.Push.Dialog.v2" timestamp="1659775725802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="66" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659775725802" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
