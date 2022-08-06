@@ -19,15 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f095b258-52f0-480d-b597-98c3c2cbed69" name="Default Changelist" comment="データベースの画像表示対応">
-      <change afterPath="$PROJECT_DIR$/onsen_server/media/up_pic/akari.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/media/up_pic/fukashi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/media/up_pic/kage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/media/up_pic/yoh.jpg" afterDir="false" />
+    <list default="true" id="f095b258-52f0-480d-b597-98c3c2cbed69" name="Default Changelist" comment="v0.0.2(α版)&#10;ABHRS追加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/onsen_server/magdet_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/magdet_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/magdet_app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/magdet_app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/up_pic/akari.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/media/akari.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/up_pic/fukashi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/media/fukashi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/up_pic/kage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/media/kage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/up_pic/yoh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/media/yoh.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onsen_server/onsen_server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/onsen_server/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onsen_server/onsen_server/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/onsen_server/urls.py" afterDir="false" />
     </list>
@@ -69,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\suiki\ドキュメント\programing\onsen_server\onsen_server\media" />
       <recent name="D:\suiki\ドキュメント\networkprograming\onsen_server\onsen_server\static" />
       <recent name="D:\suiki\ドキュメント\networkprograming\onsen_server\onsen_server\magdet_app\templates" />
     </key>
@@ -231,11 +231,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v0.0.1(α版)&#10;webページ変更" />
     <MESSAGE value="v0.0.2(α版)&#10;ABHRS追加" />
     <MESSAGE value="データベースの画像表示対応" />
     <option name="LAST_COMMIT_MESSAGE" value="データベースの画像表示対応" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/onsen_server/onsen_server/settings.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

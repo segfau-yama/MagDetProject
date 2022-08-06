@@ -7,7 +7,7 @@ class availability(models.Model):
     lock = models.BooleanField()
     name = models.CharField(max_length=100, null=True)
     note = models.CharField(max_length=100, null=True)
-    pic = models.ImageField(upload_to='up_pic', null=True)
+    pic = models.ImageField(null=True)
 
     tracker = FieldTracker()
 
