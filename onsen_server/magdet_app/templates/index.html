@@ -3,23 +3,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MagDet</title>
-    <link href="{% static 'main.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'style.css' %}" rel="stylesheet" />
+    <script src="/resources/js/bootstrap.js"></script>
 </head>
 <body>
-    <h1>施錠確認ページ</h1>
-    {% for item in object_list %}
-    <div>
-        <h2>部屋{{ item.room }}</h2>
-        {% if item.lock %}
-        <p id="busy">使用中</p>
-        {% else %}
-        <p id="available">空室</p>
-        {% endif %}
+    <nav class="navbar bg-info">
+        <h1 class="ms-3 text-light">MagDet</h1>
+    </nav>
+    <div class="card-rows">
+        {% for item in object_list %}
+        <div class="card {{item.lock|yesno:'bg-secondary text-light, bg-light text-dark'}}">
+            <div class="card-body">
+                <h2 class="card-title">部屋{{ item.room }}</h2>
+                {% if item.lock %}
+                <p class="card-text">使用中</p>
+                {% else %}
+                <p class="card-text">空室</p>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-    {{ test }}
-    <input type="button" value="更新" onclick="p_reload()">
+    <input type="button" class="btn btn-outline-primary" value="更新" onclick="p_reload()">
 </body>
 </html>
 <script>
