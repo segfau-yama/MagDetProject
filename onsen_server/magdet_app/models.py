@@ -6,7 +6,7 @@ class availability(models.Model):
     room = models.PositiveSmallIntegerField()
     lock = models.BooleanField()
     name = models.CharField(max_length=100, null=True)
-    note = models.CharField(max_length=100, null=True)
+    note = models.CharField(max_length=500, null=True)
     pic = models.ImageField(null=True)
 
     tracker = FieldTracker()
