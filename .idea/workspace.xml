@@ -57,7 +57,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659778708067</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v0.0.4(新版)&#10;デザイン修正">
+      <created>1659784634474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659784634474</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -250,10 +257,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="v0.0.4(新版)&#10;デザイン修正" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="66" y="256" key="Vcs.Push.Dialog.v2" timestamp="1659778716104">
+    <state x="0" y="168" key="SettingsEditor" timestamp="1659786523519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="66" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659778716104" />
+    <state x="0" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1659786523519" />
+    <state x="66" y="256" key="Vcs.Push.Dialog.v2" timestamp="1659784641854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="66" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1659784641854" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
