@@ -16,19 +16,21 @@
     <div class="container-md my-box">
     <h1 class="display-1">旅館大沼</h1>
     <h1 class="h1">温泉空き状況</h1>
-        <div class="card-group">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
 
             {% for item in object_list %}
-                <div class="card">
-                    <img src="{{ item.pic.url }}" class="card-img-top" alt="{{ item.pic.url }}">
-                    <div class="card-body">
-                        <div class="h3 card-title">{{ item.name }}</div>
-                        {% if item.lock %}
-                            <div class="h5 card-subtitle"><p class="text-danger">使用中</p></div>
-                        {% else %}
-                            <div class="h5 card-subtitle"><p class="text-primary">空き</p></div>
-                        {% endif %}
-                        <div class="card-text">{{ item.note }}</div>
+                <div class="col">
+                    <div class="card">
+                        <img src="{{ item.pic.url }}" class="card-img-top" alt="{{ item.pic.url }}">
+                        <div class="card-body">
+                            <div class="h3 card-title">{{ item.name }}</div>
+                            {% if item.lock %}
+                                <div class="h5 card-subtitle"><p class="text-danger">使用中</p></div>
+                            {% else %}
+                                <div class="h5 card-subtitle"><p class="text-primary">空き</p></div>
+                            {% endif %}
+                            <div class="card-text">{{ item.note }}</div>
+                        </div>
                     </div>
                 </div>
             {% endfor %}
