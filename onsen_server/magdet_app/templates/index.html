@@ -2,6 +2,7 @@
 {% load static %}
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,30 +14,47 @@
 
 </head>
 <body>
-    <div class="container-md my-box">
-    <h1 class="display-1">旅館大沼</h1>
-    <h1 class="h1">温泉空き状況</h1>
+
+<div class="p-1 bg-secondary text-white">
+    <div class="container my-box">
+        <h1 class="display-1 fw-normal">旅館大沼</h1>
+    </div>
+</div>
+
+<div class="bg-light">
+    <section class="py-4 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-bold">温泉空き状況</h1>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="py-5 bg-white">
+    <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
 
             {% for item in object_list %}
-                <div class="col">
-                    <div class="card">
-                        <img src="{{ item.pic.url }}" class="card-img-top" alt="{{ item.pic.url }}">
-                        <div class="card-body">
-                            <div class="h3 card-title">{{ item.name }}</div>
-                            {% if item.lock %}
-                                <div class="h5 card-subtitle"><p class="text-danger">使用中</p></div>
-                            {% else %}
-                                <div class="h5 card-subtitle"><p class="text-primary">空き</p></div>
-                            {% endif %}
-                            <div class="card-text">{{ item.note }}</div>
-                        </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{{ item.pic.url }}" class="card-img-top" alt="{{ item.pic.url }}">
+                    <div class="card-body">
+                        <div class="h3 card-title">{{ item.name }}</div>
+                        {% if item.lock %}
+                        <div class="h5 card-subtitle"><p class="text-danger">使用中</p></div>
+                        {% else %}
+                        <div class="h5 card-subtitle"><p class="text-primary">空き</p></div>
+                        {% endif %}
+                        <div class="card-text">{{ item.note }}</div>
                     </div>
                 </div>
+            </div>
             {% endfor %}
 
         </div>
     </div>
+</div>
 
 </body>
 </html>
