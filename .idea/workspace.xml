@@ -20,55 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f095b258-52f0-480d-b597-98c3c2cbed69" name="Default Changelist" comment="v0.0.4(新版)&#10;デザイン修正">
-      <change afterPath="$PROJECT_DIR$/onsen_server/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/magdet_app/migrations/0002_availability_name_availability_note_availability_pic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onsen_server/static/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onsen_server/magdet_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/magdet_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onsen_server/magdet_app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/onsen_server/magdet_app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/akari.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/akari_oo7r5sQ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/fukashi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/fukashi_33Tyebv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/kage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/kage_GFugolV.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/yoh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onsen_server/media/yoh_ZSOl5O5.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="pepsi" />
+        <entry key="$PROJECT_DIR$" value="pepsi-zero" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,16 +57,13 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AtDk2T54aT0pG05R5hZbOMsHSL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/kirisame/PycharmProjects/MagDetProject/onsen_server/static"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kirisame\PycharmProjects\MagDetProject\onsen_server\static" />
@@ -295,6 +254,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v0.0.1(α版)&#10;webページ変更" />
